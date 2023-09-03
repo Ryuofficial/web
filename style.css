@@ -160,7 +160,7 @@
 
 .mock-up {
   padding: 50px;
-  background-image: url(../res/bg-design.png);
+  background-image: url(./res/bg-design.png);
   background-size: cover;
   background-position: center;
   position: relative;
