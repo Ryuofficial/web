@@ -1,0 +1,74 @@
+
+.nav-dl-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color .3s, border .3s;
+ }
+
+.nav-dl-button:hover{
+  background-color: #181b1e;
+  border: 1px solid gray;
+  color: #f81b3c;
+}
+
+.btn-a {
+  padding: 0.75rem 1.5rem;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #f81b3c;
+  text-align: center;
+}
+
+.btn-a-container {
+  display: flex;
+  align-items: center;
+}
+
+.dl-btn-info {
+  display: flex;
+}
+.dl-btn-apk{
+  display: inline-block;
+  white-space: nowrap;
+  margin: 30px 10px 0px 0px;
+  width: auto;
+  font-weight: 500;
+  padding: 1.1rem 1.3rem;
+  border: 1px solid #a6a6a6;
+  border-radius: 7px;
+  background-color: transparent;
+  transition: background-color .3s, color .3s;
+}
+
+.dl-btn-play{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 10px 0px 0px;
+  font-weight:500;
+  padding: 1rem 1.4rem;
+  border: 1px solid #a6a6a6;
+  border-radius: 7px;
+  background-color: transparent;
+  transition: background-color .3s;
+}
+
+.dl-btn-play:hover{
+  background-color: rgba(99, 99, 99, 0.233);
+
+}
+
+.dl-btn-play img {
+  background-color: transparent;
+  object-fit: cover;
+  height: 30px;
+}
+
+
+
+.dl-btn-apk:hover {
+  color: black;
+  background-color: #f81b3c;
+  border-color: #f81b3c;
+}

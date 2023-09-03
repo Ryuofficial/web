@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ryumoto GFX</title>
-     <link rel="icon" href="res/ryumoto-logo.png" type="image/x-icon">
+    <link rel="icon" href="res/ryumoto-logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,12 +12,12 @@
       href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,regular,500,600,700,800,900"
       media="all"
     />
-
-   <meta name="keywords" content="Ryumoto Injector 2023, free mobile legends skin 2023, MLBB INJECTOR 2023, latest injector working 2023, Ryumoto GFX, Ryumoto INJECTOR">
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="btn.css" />
+    <link rel="stylesheet" href="media-sizes.css" />
+     <meta name="keywords" content="Ryumoto Injector 2023, free mobile legends skin 2023, MLBB INJECTOR 2023, latest injector working 2023, Ryumoto GFX, Ryumoto INJECTOR">
     <meta name="description" content="Ryumoto GFX Latest Version">
     <meta name="author" content="Ryu developer, Ryumoto">
-
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="page-wrapper">
@@ -33,12 +33,10 @@
           <li><a href="https://www.tiktok.com/@dumpacryu">Tiktok</a></li>
           <li><a href="https://www.youtube.com/@RyuDev_">Youtube</a></li>
         </ul>
-        <div class="nav-dl-button">
-          <a
-            class="btn-a"
-            href="https://play.google.com/store/apps/details?id=com.ryumoto.gfx&pli=1"
-            >Download App</a
-          >
+        <div class="btn-a-container">
+          <div class="btn-a">
+            Version 1.77
+          </div>
         </div>
       </div>
 
@@ -51,16 +49,19 @@
             </p>
 
             <div class="dl-btn-info">
-              <a class="download-button" href="#">
-                <img src="res/dl-appstore.png" />
-              </a>
+              <div 
+              id="redirectButton" 
+              class="dl-btn-apk">         
+                  Download Now             
+              </div>
 
-              <a
-                class="download-button"
+              <div
+                 id="redirectButton2" 
+                class="dl-btn-play"
                 href="https://play.google.com/store/apps/details?id=com.ryumoto.gfx&pli=1"
               >
                 <img src="res/gl-play.png" />
-              </a>
+              </div>
             </div>
           </div>
         </div>
@@ -70,4 +71,6 @@
       </div>
     </div>
   </body>
+
+  <script src="/index.js"></script>
 </html>

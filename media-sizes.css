@@ -1,0 +1,169 @@
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 768px) {
+
+  .body-container{
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-img {
+    width: 60rem;
+    height: 60rem;
+    bottom: -8rem;
+    left: -5rem;
+    opacity: .5;
+  }
+
+
+  .mock-up {
+   margin: 0;
+  }
+
+  ul{
+    display: none;
+  }
+
+  .title-header h1 {
+    font-size: 1.7rem;
+  }
+
+  .title-header p {
+    font-size: 0.8rem;
+    margin-top: 20px;
+  }
+
+  .title-nav p {
+    display: inline-block;
+    font-size: .87rem;
+  }
+
+  .btn-a {
+    padding: .4rem 1.2rem;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+
+  .navbar-container {
+    margin: 30px 20px;
+  }
+
+  .dl-btn-apk,.dl-btn-play {
+    border-radius: 6px;
+
+  }
+
+  .dl-btn-apk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 15px;
+    font-size: 13px;
+  }
+  
+  .dl-btn-play {
+    padding: 7px 15px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+
+  .mock-up {
+    padding: 70px;
+  }
+
+  .title-nav p {
+    font-size: 1.2rem;
+  }
+
+  .title-header h1 {
+    font-size: 2rem;
+  }
+
+  .title-header p {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  .body-container{
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mock-up {
+    padding: 120px;
+  }
+
+  .title-nav p {
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+
+  .title-header h1 {
+    font-size: 2.4rem;
+  }
+
+  .title-header p {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+}
+
+ @media screen and (min-width: 1024px) {
+
+  
+  .mock-up {
+    padding: px;
+  }
+
+  .title-nav p {
+    font-size: 1.2rem;
+  }
+
+  .title-header h1 {
+    font-size: 2.9rem;
+  }
+
+  .title-header p {
+    font-size: 1.3rem;
+    margin-top: 20px;
+  }
+
+}
+
+/*
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+  .mock-up {
+    padding: 55px;
+  }
+
+  .title-nav p {
+  font-size: 1.3rem;
+  }
+
+  .body-container{
+
+    grid-template-columns: 400px 450px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .body-container{
+
+    grid-template-columns: 500px 500px;
+  }
+
+} */
+
