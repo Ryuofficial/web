@@ -176,7 +176,7 @@
   .body-container{
     grid-template-columns: 1fr;
     row-gap: 50px;
-    padding: 50px;
+    padding: 30px;
     justify-content: center;
     align-items: center;
   }
@@ -226,16 +226,17 @@
   }
 
   .navbar-container {
-    margin: 30px 30px;
+    margin: 30px 20px;
   }
 
   .btn-a {
-    padding: 0.5 1.5rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 6px;
   }
 
   .title-nav p {
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: .87rem;
   }
 
 }
