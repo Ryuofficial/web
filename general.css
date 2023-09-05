@@ -163,7 +163,7 @@ span {
 
 .card::before {
   content: "";
-  background-image: url(/res/gus.webp);
+  background-image: url(./res/bg-grid.png);
   background-repeat: no-repeat;
   background-size: 100%;
   border-radius: 12px;
