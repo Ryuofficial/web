@@ -96,6 +96,18 @@
   }
 
 
+  .dl-stats{
+    padding: 4rem 0px 1.2rem 0px;
+  }
+  
+  
+  .dl-stats h2 {
+    font-size: 1.1rem;
+  }
+  .dl-stats p{
+    font-size: .68rem;
+  }
+
   
 }
 
