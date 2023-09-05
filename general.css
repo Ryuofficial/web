@@ -10,10 +10,6 @@ body {
   background-color: #181b1e;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 ul li {
   white-space: nowrap;
   display: inline-flex;
@@ -23,6 +19,9 @@ ul li {
   margin-right: 2rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 
 .title-nav p {
