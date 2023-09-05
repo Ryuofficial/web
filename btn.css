@@ -41,6 +41,12 @@
   transition: background-color .3s, color .3s;
 }
 
+.dl-btn-apk img{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
 .dl-btn-play{
   display: flex;
   justify-content: center;
