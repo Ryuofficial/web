@@ -90,6 +90,12 @@
     padding: 7px 15px;
     font-size: 13px;
   }
+
+  .dl-btn-apk img{
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+  }
   
   .dl-btn-play {
     padding: 7px 15px;
