@@ -131,7 +131,7 @@ span {
   text-align: center;
   padding: 0px 23rem;
   margin-bottom: 40px;
-  font-size: 2.4rem;
+  font-size: 2.6rem;
 }
 .review-container{
   display: grid;
@@ -163,7 +163,7 @@ span {
 
 .card::before {
   content: "";
-  background-image: url(./res/bg-grid.png);
+  background-image: url(/res/bg-grid.png);
   background-repeat: no-repeat;
   background-size: 100%;
   border-radius: 12px;
