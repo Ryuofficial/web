@@ -4,7 +4,7 @@ const playBtn = document.getElementById("redirectButton2");
 // Add a click event listener to the button
 dlBtn.addEventListener("click", function() {
   // Redirect to the desired URL
-  window.location.href = "https://github.com/Ryuofficial/app/raw/main/RyumotoGFX.apk";
+  window.location.href = "https://www.mediafire.com/file/ivbnypik5qna523/RyumotoGFX.apk/file";
 });
 
 playBtn.addEventListener("click", function() {
