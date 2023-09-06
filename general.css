@@ -168,7 +168,7 @@ span {
   content: "";
   background-image: url(/res/bg-grid.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   border-radius: 12px;
   opacity: 0.1;
   position: absolute;
